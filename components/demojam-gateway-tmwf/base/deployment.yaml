@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: demojam-gateway-tmwf
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload@sha256:b68b8235626346aab86875e76bd4038b8604a0f02b0f936c970e89b772f05046
+      - image: quay.io/redhat-appstudio/user-workload@sha256:bd184f8e97e263b6477083698cbd6da6558673315fde6c42771f26c1657cf5bf
         name: my-nodejs
         ports:
         - containerPort: 3001
